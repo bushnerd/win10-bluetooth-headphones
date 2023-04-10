@@ -23,6 +23,11 @@ This script simply disables services offered by selected BT device.
 
 Same same on connect.
 
+# The choice between connect/disconnect and connectForce/disconnectForce
+connectForce removes association then create, it may improve success rates.
+connect creates association directory.
+disconnectForce creates association then removes.
+
 # But it doesn't work for me!
 
 Check if your headphones offer more BT services than:
